@@ -20,3 +20,7 @@ INSERT INTO MOVIES VALUES (2, "HERO", "Science-fiction", "SK", "Hero", "Hero, si
 (4, "Openhiemer", "science-fiction", "Cillian murphy", "Hero", "hero", 9 , "Deepak"  );
 (4, "Asvins", "THriller", "Aswin premnath", "Hero and villain ", "hero, musician", 6 , "Saranya");
 
+UPDATE movies SET Artist = "Aswinadhan premnath" WHERE id = 4;
+-- updated the artist name filed in id 4
+DELETE FROM movies WHERE id = 1;
+-- The movie will be deleted from table
